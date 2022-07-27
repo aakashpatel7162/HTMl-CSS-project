@@ -1,0 +1,155 @@
+body
+ {
+    
+    height: 100vh;
+    background-image: url("myimg.jpg") 0 -45px;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 800px;
+    
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4vh;
+    font-family: Georgia, serif;
+  text-decoration-style: solid;
+
+
+  }
+ 
+    .main{
+        height: 10px;
+    }
+    .main ul{
+        height: 13vh;
+        float: right;
+        
+        text-align: center;
+        width: 100%; 
+        background-color: #f7f1e3;
+
+    }
+    ul a{
+      text-decoration: none;
+      display: block;
+    }
+    .main li{
+        font-size: 20px;
+        height: 15vh;
+        float: right;
+        justify-content: center;
+        width: 150%;
+        
+   
+       
+        list-style: none;
+        width: 90px;
+    }
+    ul li ul{
+      display: none;
+      margin: 0%;
+      padding: 0%;
+      height: 200px;
+      
+      width: 50%;
+    }
+    .main ul li ul li {
+      height: 50%;
+      width: 100%;
+      background-color:#f7f1e3;
+      text-decoration-color: white;
+      text-decoration: ;
+      text-transform: uppercase;
+     
+
+    }
+    .main ul li ul{
+      background-color: rgb(5, 6, 7);
+    }
+
+   .main ul li:hover  >ul
+   {
+     display: block;
+    }
+
+
+  .menu{
+    text-align: right;
+    float: right;
+    background-color:#d1ccc0;
+    list-style: none;
+    text-decoration: none;
+    margin-top: -30px;
+    width: 100%;
+    height: 8vh;
+    margin-top: -39px;
+  }
+  .menu ul{
+   
+    
+    list-style: none;
+    float: right;
+    text-align: right;
+    float: right;
+    height: 3vh;
+    width: 100%;
+    background-color:#d1ccc0;
+   
+
+    padding: -50x;
+
+  }
+  .menu li{
+    list-style: none;
+    float: right;
+  padding: 5px;
+    font-size: large;
+    height: 7vh;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: rgb(35, 175, 44);
+    width: 10%;
+   
+    
+  }
+  .last{
+    background-color:#afe7e7;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-top: 700px;
+    #1abc9c
+    
+  }
+  .last foot{
+    margin-left: 30px;
+    padding-left: 20px;
+    background-color: #afe7e7;
+  }
+    
+  .last p3{
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: Georgia, serif;
+  }
+  .foot li{
+    margin-left: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    list-style-type: upper-roman;
+    text-decoration: #81ecec;
+    text-decoration-color: #81ecec;
+  }
+
